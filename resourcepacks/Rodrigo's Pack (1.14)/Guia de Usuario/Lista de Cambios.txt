@@ -1,0 +1,125 @@
+
+                                                 Rodrigo's Pack, 2016 - 2019 ©
+
+                                 (Se muestran solo las últimas listas de cambio)
+
+-------------------------------------------------------------------------------------------------------------------
+
+                                                  LISTA DE CAMBIOS (v21.5)
+                                                           08 de Junio, 2019
+
+• Entidades mejoradas:
+
+     - Todos los aldeanos
+     - Todos los zombies aldeanos
+     - Zombie aldeano
+     - Alex
+     - Steve
+     - Bruja
+
+-------------------------------------------------------------------------------------------------------------------
+
+                                                  LISTA DE CAMBIOS (v21.4)
+
+• Pantalla de carga personalizada editada:
+
+     - Logo 
+     - Color de barra
+     - Fondo de color de barra
+     - Fondo de pantalla de carga
+
+• Entidas mejoradas:
+
+     - Aldeano del desierto
+     - Aldeano de la sabana
+
+• Bamboo mejorado
+
+-------------------------------------------------------------------------------------------------------------------
+
+                                                  LISTA DE CAMBIOS (v21.3)
+
+• Entidades editadas:
+
+     - Todos los niveles de las profesiones de los aldeanos
+     - Aldeano armero
+     - Aldeano sacerdote
+     - Aldeano albañil
+     - Aldeano simple
+     - Aldeano forjador de herramientas
+     - Aldeano forjador de armar
+     - Aldeano peletero
+
+• Color de mapa mejorado:
+
+     - Llanuras
+     - Taiga
+     - Jungla
+
+-------------------------------------------------------------------------------------------------------------------
+
+                                                  LISTA DE CAMBIOS (v21.2)
+
+• Entidades editadas:
+
+     - Aldeano granjero
+     - Aldeano carnicero
+     - Aldeano arquero
+     - Aldeano bibliotecario
+     - Aldeano pastor
+     - Aldeano pescador
+     - Aldeano cartógrafo
+
+• Bloques de helecho corregidos
+
+-------------------------------------------------------------------------------------------------------------------
+
+                                                  LISTA DE CAMBIOS (v21.1)
+
+• Bloques mejorados:
+
+     - Agua en reposo
+     - Agua en movimiento
+     - Lava quieta
+     - Lava en movimiento
+
+• Interfaz de caballo corregido
+
+-------------------------------------------------------------------------------------------------------------------
+
+                                                  LISTA DE CAMBIOS (v21.0)
+
+• Agregado soporte a la versión 1.14 de Minecraft:
+
+     - Todos los bloques editados
+     - Todos los objetos editados
+     - Todas las partículas editadas
+     - Todos los efectos de mobs editados
+     - Mayoría de entidades editadas
+     - Modelos personalizados para todas las paredes, losas y escaleras agregados
+
+• Agregado soporte a la versión 1.14 de Optifine:
+
+     - Todas las texturas conectadas agregadas
+     - Todos los colores personalizados agregados
+     - Color de neblina cambiado
+     - Pantalla de carga cambiada
+
+• Texturas conectadas agregadas:
+
+     - Losa de arenisca cortada
+     - Losa de arenisca suave
+     - Escalera de arenisca suave
+     - Losa de arenisca roja cortada
+     - Losa de arenisca roja suave
+     - Escalera de arenisca roja suave
+     - Losa de cuarzo suave
+
+• Interfaz mejorada:
+
+     - Aldeanos
+     - Botones de selección, lenguaje, bloqueo y accesibilidad
+
+• Color de agua mejorado (1.13+)
+
+-------------------------------------------------------------------------------------------------------------------

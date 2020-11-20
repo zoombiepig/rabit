@@ -1,0 +1,370 @@
+---- Minecraft Crash Report ----
+// On the bright side, I bought you a teddy bear!
+
+Time: 6/22/20 4:58 PM
+Description: Watching Server
+
+java.lang.Error
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at ais.bl(SourceFile:139)
+	at ais.c(SourceFile:129)
+	at xb.a(SourceFile:139)
+	at bjw.a(SourceFile:180)
+	at bjz.a(SourceFile:108)
+	at bjw.d(SourceFile:175)
+	at bjw.d_(SourceFile:381)
+	at akq.aP(SourceFile:1680)
+	at akz.aP(SourceFile:2930)
+	at akz.aa(SourceFile:303)
+	at akq.h(SourceFile:407)
+	at akz.h(SourceFile:2097)
+	at ayj.h(SourceFile:278)
+	at xe.i(SourceFile:386)
+	at xv.b(SourceFile:198)
+	at kt.a(SourceFile:234)
+	at xu.c(SourceFile:171)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:866)
+	at wd.b(SourceFile:347)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:793)
+	at net.minecraft.server.MinecraftServer.run(SourceFile:655)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at ais.bl(SourceFile:139)
+	at ais.c(SourceFile:129)
+	at xb.a(SourceFile:139)
+	at bjw.a(SourceFile:180)
+	at bjz.a(SourceFile:108)
+	at bjw.d(SourceFile:175)
+	at bjw.d_(SourceFile:381)
+	at akq.aP(SourceFile:1680)
+	at akz.aP(SourceFile:2930)
+	at akz.aa(SourceFile:303)
+	at akq.h(SourceFile:407)
+	at akz.h(SourceFile:2097)
+	at ayj.h(SourceFile:278)
+	at xe.i(SourceFile:386)
+	at xv.b(SourceFile:198)
+	at kt.a(SourceFile:234)
+	at xu.c(SourceFile:171)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:866)
+	at wd.b(SourceFile:347)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:793)
+
+-- Thread Dump --
+Details:
+	Threads: "Server-Worker-2420" Id=2520 WAITING on java.util.concurrent.ForkJoinPool@7a3ff803
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@7a3ff803
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+
+"Server-Worker-2419" Id=2519 WAITING on java.util.concurrent.ForkJoinPool@7a3ff803
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@7a3ff803
+	at java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+
+"Server-Worker-2416" Id=2516 RUNNABLE
+	at cli$a.a(SourceFile:391)
+	at cli.b(SourceFile:123)
+	at cli.a(SourceFile:34)
+	at cli$b.a(SourceFile:613)
+	at cli.b(SourceFile:123)
+	at cli.a(SourceFile:34)
+	at cli$a.a(SourceFile:373)
+	at cli.b(SourceFile:123)
+	...
+
+
+"Netty Epoll Server IO #7" Id=39 BLOCKED on java.util.Collections$SynchronizedRandomAccessList@74f81934 owned by "Server thread" Id=16
+	at java.util.Collections$SynchronizedCollection.add(Collections.java:2037)
+	-  blocked on java.util.Collections$SynchronizedRandomAccessList@74f81934
+	at xu$1.initChannel(SourceFile:106)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:113)
+	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:105)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:637)
+	at io.netty.channel.DefaultChannelPipeline.access$000(DefaultChannelPipeline.java:46)
+	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1487)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1161)
+	...
+
+
+"Netty Epoll Server IO #6" Id=38 BLOCKED on java.util.Collections$SynchronizedRandomAccessList@74f81934 owned by "Server thread" Id=16
+	at java.util.Collections$SynchronizedCollection.add(Collections.java:2037)
+	-  blocked on java.util.Collections$SynchronizedRandomAccessList@74f81934
+	at xu$1.initChannel(SourceFile:106)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:113)
+	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:105)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:637)
+	at io.netty.channel.DefaultChannelPipeline.access$000(DefaultChannelPipeline.java:46)
+	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1487)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1161)
+	...
+
+
+"Netty Epoll Server IO #5" Id=37 BLOCKED on java.util.Collections$SynchronizedRandomAccessList@74f81934 owned by "Server thread" Id=16
+	at java.util.Collections$SynchronizedCollection.add(Collections.java:2037)
+	-  blocked on java.util.Collections$SynchronizedRandomAccessList@74f81934
+	at xu$1.initChannel(SourceFile:106)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:113)
+	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:105)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:637)
+	at io.netty.channel.DefaultChannelPipeline.access$000(DefaultChannelPipeline.java:46)
+	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1487)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1161)
+	...
+
+
+"Netty Epoll Server IO #4" Id=36 BLOCKED on java.util.Collections$SynchronizedRandomAccessList@74f81934 owned by "Server thread" Id=16
+	at java.util.Collections$SynchronizedCollection.add(Collections.java:2037)
+	-  blocked on java.util.Collections$SynchronizedRandomAccessList@74f81934
+	at xu$1.initChannel(SourceFile:106)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:113)
+	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:105)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:637)
+	at io.netty.channel.DefaultChannelPipeline.access$000(DefaultChannelPipeline.java:46)
+	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1487)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1161)
+	...
+
+
+"Netty Epoll Server IO #3" Id=35 BLOCKED on java.util.Collections$SynchronizedRandomAccessList@74f81934 owned by "Server thread" Id=16
+	at java.util.Collections$SynchronizedCollection.add(Collections.java:2037)
+	-  blocked on java.util.Collections$SynchronizedRandomAccessList@74f81934
+	at xu$1.initChannel(SourceFile:106)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:113)
+	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:105)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:637)
+	at io.netty.channel.DefaultChannelPipeline.access$000(DefaultChannelPipeline.java:46)
+	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1487)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1161)
+	...
+
+
+"Netty Epoll Server IO #2" Id=34 BLOCKED on java.util.Collections$SynchronizedRandomAccessList@74f81934 owned by "Server thread" Id=16
+	at java.util.Collections$SynchronizedCollection.add(Collections.java:2037)
+	-  blocked on java.util.Collections$SynchronizedRandomAccessList@74f81934
+	at xu$1.initChannel(SourceFile:106)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:113)
+	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:105)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:637)
+	at io.netty.channel.DefaultChannelPipeline.access$000(DefaultChannelPipeline.java:46)
+	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1487)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1161)
+	...
+
+
+"Netty Epoll Server IO #1" Id=33 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Java2D Disposer" Id=31 WAITING on java.lang.ref.ReferenceQueue$Lock@70c79373
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@70c79373
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+	at sun.java2d.Disposer.run(Disposer.java:148)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Server Watchdog" Id=30 RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:454)
+	at wg.run(SourceFile:45)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"poi IO worker" Id=29 WAITING on java.lang.String@35c5130f
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@35c5130f
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at caz.c(SourceFile:124)
+	at caz.d(SourceFile:134)
+	at caz$$Lambda$2138/304854775.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"chunk IO worker" Id=28 WAITING on java.lang.String@35c5130f
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@35c5130f
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at caz.c(SourceFile:124)
+	at caz.d(SourceFile:134)
+	at caz$$Lambda$2138/304854775.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"poi IO worker" Id=27 WAITING on java.lang.String@35c5130f
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@35c5130f
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at caz.c(SourceFile:124)
+	at caz.d(SourceFile:134)
+	at caz$$Lambda$2138/304854775.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"chunk IO worker" Id=26 WAITING on java.lang.String@35c5130f
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@35c5130f
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at caz.c(SourceFile:124)
+	at caz.d(SourceFile:134)
+	at caz$$Lambda$2138/304854775.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"poi IO worker" Id=25 WAITING on java.lang.String@35c5130f
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@35c5130f
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at caz.c(SourceFile:124)
+	at caz.d(SourceFile:134)
+	at caz$$Lambda$2138/304854775.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"chunk IO worker" Id=24 WAITING on java.lang.String@35c5130f
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@35c5130f
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at caz.c(SourceFile:124)
+	at caz.d(SourceFile:134)
+	at caz$$Lambda$2138/304854775.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Resource IO {0}" Id=23 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@303f0a54
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@303f0a54
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Netty Epoll Server IO #0" Id=22 BLOCKED on java.util.Collections$SynchronizedRandomAccessList@74f81934 owned by "Server thread" Id=16
+	at java.util.Collections$SynchronizedCollection.add(Collections.java:2037)
+	-  blocked on java.util.Collections$SynchronizedRandomAccessList@74f81934
+	at xu$1.initChannel(SourceFile:106)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:113)
+	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:105)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:637)
+	at io.netty.channel.DefaultChannelPipeline.access$000(DefaultChannelPipeline.java:46)
+	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1487)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1161)
+	...
+
+
+"ObjectCleanerThread" Id=21 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@4ba84de
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@4ba84de
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at io.netty.util.internal.ObjectCleaner$1.run(ObjectCleaner.java:54)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Server console handler" Id=19 RUNNABLE (in native)
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(FileInputStream.java:255)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	-  locked java.io.BufferedInputStream@48aac331
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	-  locked java.io.InputStreamReader@55eaec40
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	...
+
+
+"DestroyJavaVM" Id=20 RUNNABLE
+
+
+"Server thread" Id=16 TIMED_WAITING on java.lang.String@35c5130f
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@35c5130f
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at ais.bl(SourceFile:139)
+	at ais.c(SourceFile:129)
+	at xb.a(SourceFile:139)
+	at bjw.a(SourceFile:180)
+	at bjz.a(SourceFile:108)
+	at bjw.d(SourceFile:175)
+	...
+
+
+"Server Infinisleeper" Id=17 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at wd$1.run(SourceFile:94)
+
+
+"Snooper Timer" Id=15 WAITING on java.util.TaskQueue@1d4f3103
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@1d4f3103
+	at java.lang.Object.wait(Object.java:502)
+	at java.util.TimerThread.mainLoop(Timer.java:526)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"Signal Dispatcher" Id=4 RUNNABLE
+
+
+"Finalizer" Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@4d83da00
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@4d83da00
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+
+
+"Reference Handler" Id=2 WAITING on java.lang.ref.Reference$Lock@53ae2bca
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@53ae2bca
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+
+
+Stacktrace:
+	at wg.run(SourceFile:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.15.2
+	Minecraft Version ID: 1.15.2
+	Operating System: Linux (amd64) version 5.3.0-59-generic
+	Java Version: 1.8.0_252, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 1299069072 bytes (1238 MB) / 2235039744 bytes (2131 MB) up to 2863661056 bytes (2731 MB)
+	CPUs: 4
+	JVM Flags: 1 total; -Xmx3G
+	Player Count: 2 / 20; [xe['ComboD'/89357, l='world', x=30000000.00, y=80.75, z=-322.87], xe['TommyPeled'/93986, l='world', x=92.89, y=55.00, z=-117.16]]
+	Data Packs: vanilla, file/player head drops v1.0.0.zip (incompatible), file/wandering trades v1.1.0.zip
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)

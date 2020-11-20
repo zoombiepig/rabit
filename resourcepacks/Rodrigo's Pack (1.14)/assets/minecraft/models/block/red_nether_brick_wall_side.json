@@ -1,0 +1,6 @@
+{
+    "parent": "block/template_wall_side",
+    "textures": {
+        "wall": "blocks_extra/walls/red_nether_brick_wall_side"
+    }
+}

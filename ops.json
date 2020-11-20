@@ -1,0 +1,32 @@
+[
+  {
+    "uuid": "feb6acf5-eec6-4233-93ea-6e3f43345d53",
+    "name": "ofer_pro",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "89a07420-fa90-4667-bc15-7677ff7f7b13",
+    "name": "ZoombiePig",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "113475a3-80aa-4cb2-93fa-c75227378e9b",
+    "name": "fishes_s",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d57dbe2d-cb53-4415-85fd-60fd4c52b26c",
+    "name": "JerryHypixel",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "db23ab06-738b-412b-88ed-0814f311f194",
+    "name": "benpeled",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

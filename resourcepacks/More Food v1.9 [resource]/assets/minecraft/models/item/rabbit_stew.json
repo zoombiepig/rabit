@@ -1,0 +1,11 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/rabbit_stew"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 50}, "model": "item/food/spaghetti"},
+		{ "predicate": {"custom_model_data": 51}, "model": "item/food/icecream/ice_bowl"},
+		{ "predicate": {"custom_model_data": 52}, "model": "item/food/ramon_noodles"}
+	]
+}

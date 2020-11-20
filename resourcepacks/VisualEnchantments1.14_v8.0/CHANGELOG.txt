@@ -1,0 +1,36 @@
+COMPATIBLE GAME VERSIONS: 1.13 to 1.14
+
+Changes in VisualEnchantments 8.0:
+
+- Added enchantment secific trident models
+- Retextured minor detail in protection chestplates
+- Removed trident 2d textures
+
+
+Changes in VisualEnchantments 7.0:
+
+- Added visual shields
+- Retextured protection chestplates
+- Animated fire aspect weapons
+
+Changes in VisualEnchantments 6.0:
+
+- Basic resourcepack finished (20.07.2019)
+- Weapon priority added
+
+Changes in VisualEnchantments 5.2:
+
+- Added broken elytra textures
+- Finally fixed sweeping enchantment glint
+
+Changes in VisualEnchantments 5.1:
+
+- Added Mending glint. It doesn't alter the item's texture, it just adds a glint to it.Vis
+- Fixed sweeping_edge enchantment glint levels(FAIL)
+- Fixed unbreaking crossbows
+
+Changes in VisualEnchantments 5.0: 
+
+- Added textures for all crossbow's enchantments
+- Added armor enchantment priority
+- Now some enchantments at his highest level glint

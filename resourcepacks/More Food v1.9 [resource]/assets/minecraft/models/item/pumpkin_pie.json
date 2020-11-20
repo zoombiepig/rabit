@@ -1,0 +1,21 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/pumpkin_pie"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 50}, "model": "item/food/pie/apple_pie"},
+		{ "predicate": {"custom_model_data": 51}, "model": "item/food/pie/cheese_pie"},
+		{ "predicate": {"custom_model_data": 52}, "model": "item/food/pie/chicken_pie"},
+		{ "predicate": {"custom_model_data": 53}, "model": "item/food/pie/chocolate_pie"},
+		{ "predicate": {"custom_model_data": 54}, "model": "item/food/pie/golden_apple_pie"},
+		{ "predicate": {"custom_model_data": 55}, "model": "item/food/pie/lemon_pie"},
+		{ "predicate": {"custom_model_data": 56}, "model": "item/food/pie/pie_base"},
+		{ "predicate": {"custom_model_data": 57}, "model": "item/food/pie/pork_pie"},
+		{ "predicate": {"custom_model_data": 58}, "model": "item/food/pie/steak_pie"},
+		{ "predicate": {"custom_model_data": 59}, "model": "item/food/pie/strawberry_pie"},
+		{ "predicate": {"custom_model_data": 60}, "model": "item/food/pie/grape_pie"},
+		{ "predicate": {"custom_model_data": 61}, "model": "item/food/pie/toffee_pie"},
+		{ "predicate": {"custom_model_data": 62}, "model": "item/food/pie/berry_pie"}
+	]
+}

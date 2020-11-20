@@ -1,0 +1,135 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+    "textures": {
+        "particle": "blocks/blocks/glass",
+        "0": "blocks/obsidian",
+        "1": "blocks/beacon",
+        "2": "blocks/glass"
+    },
+	"display":	{
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.3, 0.3,	0.3	]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 45, 0 ],
+            "translation": [ 0, 2, 0 ],
+            "scale": [ 0.4, 0.4,	0.4	]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 75, 45, 0 ],
+            "translation": [ 0, 2, 0 ],
+            "scale": [ 0.4, 0.4,	0.4	]
+        },
+		"firstperson_righthand": {
+            "rotation": [ 0, -45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.4, 0.4,	0.4	]
+        },
+        "first_lefthand": {
+            "rotation": [ 0, -45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.4, 0.4,	0.4	]
+        },
+		"gui":	{
+			"rotation":	[	30,	225,	0	],
+			"translation":	[	0,	0,	0	],
+			"scale":	[ 0.65, 0.65,	0.65	]
+				}
+	},
+
+    "elements": [
+        {
+            "name": "obsidian1",
+            "from": [ 0.0, 0.0, 0.0 ], 
+            "to": [ 16.0, 2.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "down": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "beacon1",
+            "from": [ 2.0, 0.0, 2.0 ], 
+            "to": [ 14.0, 14.0, 14.0 ], 
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 2.0, 2.0, 14.0, 16.0 ] },
+                "east": { "texture": "#1", "uv": [ 2.0, 2.0, 14.0, 16.0 ] },
+                "south": { "texture": "#1", "uv": [ 2.0, 2.0, 14.0, 16.0 ] },
+                "west": { "texture": "#1", "uv": [ 2.0, 2.0, 14.0, 16.0 ] },
+                "up": { "texture": "#1", "uv": [ 2.0, 2.0, 14.0, 14.0 ] },
+                "down": { "texture": "#-1", "uv": [ 0.0, 0.0, 12.0, 12.0 ] }
+            }
+        },
+        {
+            "name": "obsidian2",
+            "from": [ 0.0, 0.0, 0.0 ], 
+            "to": [ 1.0, 15.0, 1.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 15.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 15.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 15.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 15.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+                "down": { "texture": "#-1", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+            }
+        },
+        {
+            "name": "obsidian3",
+            "from": [ 0.0, 0.0, 15.0 ], 
+            "to": [ 1.0, 15.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 15.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 15.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 15.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 15.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+                "down": { "texture": "#-1", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+            }
+        },
+        {
+            "name": "obsidian4",
+            "from": [ 15.0, 0.0, 15.0 ], 
+            "to": [ 16.0, 15.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 15.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 15.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 15.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 15.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+                "down": { "texture": "#-1", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+            }
+        },
+        {
+            "name": "obsidian5",
+            "from": [ 15.0, 0.0, 0.0 ], 
+            "to": [ 16.0, 15.0, 1.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 15.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 15.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 15.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 15.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+                "down": { "texture": "#-1", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+            }
+        },
+        {
+            "name": "glass1",
+            "from": [ 0.0, 15.0, 0.0 ], 
+            "to": [ 16.0, 16.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+                "up": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "down": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        }
+    ]
+}

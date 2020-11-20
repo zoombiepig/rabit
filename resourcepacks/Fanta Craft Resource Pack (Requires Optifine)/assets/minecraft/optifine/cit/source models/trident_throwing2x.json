@@ -1,0 +1,28 @@
+{
+    "parent": "item/generated2x",
+    "textures": {
+        "layer0": "item/trident"
+	},
+	"display": {
+		"thirdperson_righthand": {
+            "rotation": [ 12.5, 90, -150 ],
+            "translation": [ 0, -5, 2 ],
+            "scale": [ 2, 2, 1 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 12.5, -90, 150 ],
+            "translation": [ 0, -5, 2 ],
+            "scale": [ 2, 2, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ -100, -90, -25 ],
+            "translation": [ 5, 3.2, -2.5],
+            "scale": [ 2, 2, 1 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ -100, 90, 25 ],
+            "translation": [  5, 3.2, -2.5],
+            "scale": [ 2, 2, 1 ]
+		}
+	}
+}

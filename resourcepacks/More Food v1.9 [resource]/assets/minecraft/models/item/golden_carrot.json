@@ -1,0 +1,20 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/golden_carrot"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 50}, "model": "item/food/pizza_slice"},
+		{ "predicate": {"custom_model_data": 51}, "model": "item/food/pizza"},
+		{ "predicate": {"custom_model_data": 52}, "model": "item/food/hotdog_w_bun"},
+		{ "predicate": {"custom_model_data": 53}, "model": "item/food/popcorn_bucket"},
+		{ "predicate": {"custom_model_data": 54}, "model": "item/food/taco"},
+		{ "predicate": {"custom_model_data": 55}, "model": "item/food/chicken_fajita"},
+		{ "predicate": {"custom_model_data": 56}, "model": "item/food/burrito"},
+		{ "predicate": {"custom_model_data": 57}, "model": "item/food/kebab"},
+		{ "predicate": {"custom_model_data": 58}, "model": "item/food/bacon_egg_sandwich"},
+		{ "predicate": {"custom_model_data": 59}, "model": "item/food/breakfast_sub"},
+		{ "predicate": {"custom_model_data": 60}, "model": "item/food/sausage_egg_muffin"},
+		{ "predicate": {"custom_model_data": 61}, "model": "item/food/sausage_egg_sandwich"}
+	]
+}

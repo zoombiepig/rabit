@@ -1,0 +1,64 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"sign": "entity/signs/oak",
+		"particle": "entity/signs/oak"
+	},
+	"elements": [
+		{
+			"name": "post",
+			"from": [7.5, 0, 7.5],
+			"to": [8.5, 7, 8.5],
+			"faces": {
+				"north": {"uv": [1.5, 8, 2, 15], "texture": "#sign"},
+				"east": {"uv": [1, 8, 1.5, 15], "texture": "#sign"},
+				"south": {"uv": [0.5, 8, 1, 15], "texture": "#sign"},
+				"west": {"uv": [0, 8, 0.5, 15], "texture": "#sign"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#sign"},
+				"down": {"uv": [6.5, 0, 7, 0.5], "rotation": 270, "texture": "#sign"}
+			}
+		},
+		{
+			"name": "sign",
+			"from": [2, 7, 7.5],
+			"to": [14, 13, 8.5],
+			"faces": {
+				"north": {"uv": [7, 1, 13, 7], "texture": "#sign"},
+				"east": {"uv": [6.5, 1, 7, 7], "texture": "#sign"},
+				"south": {"uv": [0.5, 1, 6.5, 7], "texture": "#sign"},
+				"west": {"uv": [0, 1, 0.5, 7], "texture": "#sign"},
+				"up": {"uv": [0.5, 0, 6.5, 1], "texture": "#sign"},
+				"down": {"uv": [6.5, 1, 12.5, 0], "texture": "#sign"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 4, 0.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 4, 0.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 3, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"gui": {
+			"rotation": [20, 22.5, 0],
+			"scale": [1, 1, 1],
+			"translation": [0, 1, 0]
+		},
+		"fixed": {
+			"translation": [0, 0, 1]
+		}
+	}
+}

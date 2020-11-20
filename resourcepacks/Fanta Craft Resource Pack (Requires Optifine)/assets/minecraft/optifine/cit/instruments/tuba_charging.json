@@ -1,0 +1,28 @@
+{
+    "parent": "./war_tuba",
+	"textures": {
+        "layer0": "item/iron_sword"
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ 0, -90, 40 ],
+            "translation": [ 0, -4.0, 0.5 ],
+            "scale": [ 3.4, 3.4, 0.85 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 0, 90, -40 ],
+            "translation": [ 0, -4.0, 0.5 ],
+            "scale": [ 3.4, 3.4, 0.85 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, -90, -45 ],
+            "translation": [ 1.13, -2, -2 ],
+            "scale": [ 2.72, 2.72, 0.68 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 90, 45 ],
+            "translation": [ 1.13, -2, -2 ],
+            "scale": [ 2.72, 2.72, 0.68 ]
+        }
+    }
+}

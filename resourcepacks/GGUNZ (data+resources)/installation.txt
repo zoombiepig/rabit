@@ -1,0 +1,28 @@
+[===============================]
+|                               |
+|    --- GGUNZ by Geegaz ---    |
+|                               |
+|     a gun-themed datapack     |
+|                               |
+[===============================]
+
+How to install ?
+
+|Datapack:
+Locate your world folder,
+Put "GGUNZ Data.zip" in the "datapacks" folder,
+Then type "/reload" ingame
+
+If you see a message "GGUNZ sucessfully installed", then the datapack was sucessfully installed.
+
+|Resource pack:
+Locate your resource pack folder and put in "GGUNZ Resources.zip",
+Ingame go in the Options -> Resource Packs,
+Select "GGUNZ Resources" and put on top of the Selected Resource Packs,
+Then press "Done"
+
+Press L and select the Datapacks tabs.
+If you see a gun as the image for the GGUNZ datapack, then the texturepack is working properly.
+
+
+ Have fun !

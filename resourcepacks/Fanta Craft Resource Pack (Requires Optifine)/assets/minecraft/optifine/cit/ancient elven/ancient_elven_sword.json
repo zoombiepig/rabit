@@ -1,0 +1,898 @@
+{
+	"__comment": "Designed by Force Team with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"ancient_elven_sword": "./ancient_elven_sword"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 2.5, 3, 7.75 ],
+			"to": [ 4.5, 3.5, 9.25 ],
+			"faces": {
+				"down": { "uv": [ 4.5, 13, 2.5, 12.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 4.5, 12.5, 2.5, 13 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 4.5, 12.5, 2.5, 13 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 2.5, 12.5, 4.5, 13 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 2.5, 12.5, 3, 13 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 4.5, 13, 4, 12.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box2",
+			"from": [ 2.5, 2.5, 7.75 ],
+			"to": [ 3.5, 3, 9.25 ],
+			"faces": {
+				"down": { "uv": [ 3.5, 13.5, 2.5, 13 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 3.5, 13, 2.5, 13.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 3.5, 13, 2.5, 13.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 2.5, 13, 3.5, 13.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 2.5, 13, 3, 13.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 3.5, 13.5, 3, 13 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box3",
+			"from": [ 3, 4, 7.75 ],
+			"to": [ 3.5, 4.5, 9.25 ],
+			"faces": {
+				"down": { "uv": [ 3.5, 12, 3, 11.5 ], "texture": "#ancient_elven_sword", "rotation": 90 },
+				"up": { "uv": [ 3, 11.5, 3.5, 12 ], "texture": "#ancient_elven_sword", "rotation": 90 },
+				"north": { "uv": [ 3.5, 12, 3, 11.5 ], "texture": "#ancient_elven_sword", "rotation": 270 },
+				"south": { "uv": [ 3, 11.5, 3.5, 12 ], "texture": "#ancient_elven_sword", "rotation": 270 },
+				"west": { "uv": [ 3, 11.5, 3.5, 12 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 3, 11.5, 3.5, 12 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box4",
+			"from": [ 3, 3.5, 7.75 ],
+			"to": [ 4, 4, 9.25 ],
+			"faces": {
+				"down": { "uv": [ 4, 12.5, 3, 12 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 4, 12, 3, 12.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 4, 12, 3, 12.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 3, 12, 4, 12.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 3, 12, 3.5, 12.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 4, 12.5, 3.5, 12 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box5",
+			"from": [ 4, 4.5, 8 ],
+			"to": [ 5.5, 5, 9 ],
+			"faces": {
+				"down": { "uv": [ 5.5, 11.5, 4, 11 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 5.5, 11, 4, 11.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 5.5, 11, 4, 11.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 4, 11, 5.5, 11.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 4, 11, 4.5, 11.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 5.5, 11.5, 5, 11 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box6",
+			"from": [ 4.5, 5, 8 ],
+			"to": [ 6, 5.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 6, 11, 4.5, 10.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 6, 10.5, 4.5, 11 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 6, 10.5, 4.5, 11 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 4.5, 10.5, 6, 11 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 4.5, 10.5, 5, 11 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 6, 11, 5.5, 10.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box7",
+			"from": [ 5, 9, 7.5 ],
+			"to": [ 6, 10, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 6, 7, 5, 6.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 6, 6, 5, 6.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 6, 6, 5, 7 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 5, 6, 6, 7 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 5, 6, 5.5, 7 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 6, 7, 5.5, 6 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box8",
+			"from": [ 5, 5.5, 8 ],
+			"to": [ 7, 6, 9 ],
+			"faces": {
+				"down": { "uv": [ 7, 10.5, 5, 10 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 7, 10, 5, 10.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 7, 10, 5, 10.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 5, 10, 7, 10.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 5, 10, 5.5, 10.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 7, 10.5, 6.5, 10 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box9",
+			"from": [ 5.5, 8.5, 7.5 ],
+			"to": [ 7, 9, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 7, 7.5, 5.5, 7 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 7, 7, 5.5, 7.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 7, 7, 5.5, 7.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 5.5, 7, 7, 7.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 5.5, 7, 6, 7.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 7, 7.5, 6.5, 7 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box10",
+			"from": [ 7.5, 6, 7.5 ],
+			"to": [ 9, 7, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 9, 10, 7.5, 9.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 9, 9, 7.5, 9.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 9, 9, 7.5, 10 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 7.5, 9, 9, 10 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 7.5, 9, 8, 10 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 9, 10, 8.5, 9 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box11",
+			"from": [ 6, 7.5, 7.5 ],
+			"to": [ 6.5, 9.5, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 6.5, 8.5, 6, 8 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 6.5, 6.5, 6, 7 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 6.5, 6.5, 6, 8.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 6, 6.5, 6.5, 8.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 6, 6.5, 6.5, 8.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 6.5, 8.5, 6, 6.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box12",
+			"from": [ 6.5, 7.5, 7.5 ],
+			"to": [ 7.5, 8.5, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 7.5, 8.5, 6.5, 8 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 7.5, 7.5, 6.5, 8 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 7.5, 7.5, 6.5, 8.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 6.5, 7.5, 7.5, 8.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 6.5, 7.5, 7, 8.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 7.5, 8.5, 7, 7.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box13",
+			"from": [ 7, 9, 8 ],
+			"to": [ 9, 9.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 9, 7, 7, 6.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 9, 6.5, 7, 7 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 9, 6.5, 7, 7 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 7, 6.5, 9, 7 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 7, 6.5, 7.5, 7 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 9, 7, 8.5, 6.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box14",
+			"from": [ 7.5, 7, 7.5 ],
+			"to": [ 8.5, 7.5, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 8.5, 9, 7.5, 8.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 8.5, 8.5, 7.5, 9 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 8.5, 8.5, 7.5, 9 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 7.5, 8.5, 8.5, 9 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 7.5, 8.5, 8, 9 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 8.5, 9, 8, 8.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box15",
+			"from": [ 8, 9.5, 8 ],
+			"to": [ 11, 10, 9 ],
+			"faces": {
+				"down": { "uv": [ 11, 6.5, 8, 6 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 11, 6, 8, 6.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 11, 6, 8, 6.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 8, 6, 11, 6.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 8, 6, 8.5, 6.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 11, 6.5, 10.5, 6 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box16",
+			"from": [ 8.5, 10, 8 ],
+			"to": [ 11.5, 10.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 11.5, 6, 8.5, 5.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 11.5, 5.5, 8.5, 6 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 11.5, 5.5, 8.5, 6 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 8.5, 5.5, 11.5, 6 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 8.5, 5.5, 9, 6 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 11.5, 6, 11, 5.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box17",
+			"from": [ 8.5, 7.5, 8 ],
+			"to": [ 10, 8.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 10, 8.5, 8.5, 8 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 10, 7.5, 8.5, 8 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 10, 7.5, 8.5, 8.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 8.5, 7.5, 10, 8.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 8.5, 7.5, 9, 8.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 10, 8.5, 9.5, 7.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box18",
+			"from": [ 8.5, 5.5, 7.5 ],
+			"to": [ 10, 6, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 10, 10.5, 8.5, 10 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 10, 10, 8.5, 10.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 10, 10, 8.5, 10.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 8.5, 10, 10, 10.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 8.5, 10, 9, 10.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 10, 10.5, 9.5, 10 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box19",
+			"from": [ 9, 8.5, 8 ],
+			"to": [ 10.5, 9, 9 ],
+			"faces": {
+				"down": { "uv": [ 10.5, 7.5, 9, 7 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 10.5, 7, 9, 7.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 10.5, 7, 9, 7.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 9, 7, 10.5, 7.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 9, 7, 9.5, 7.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 10.5, 7.5, 10, 7 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box20",
+			"from": [ 9, 5, 7.5 ],
+			"to": [ 9.5, 6.5, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 9.5, 11, 9, 10.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 9.5, 9.5, 9, 10 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 9.5, 9.5, 9, 11 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 9, 9.5, 9.5, 11 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 9, 9.5, 9.5, 11 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 9.5, 11, 9, 9.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box21",
+			"from": [ 9.5, 10.5, 8 ],
+			"to": [ 12, 11, 9 ],
+			"faces": {
+				"down": { "uv": [ 12, 5.5, 9.5, 5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 12, 5, 9.5, 5.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 12, 5, 9.5, 5.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 9.5, 5, 12, 5.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 9.5, 5, 10, 5.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 12, 5.5, 11.5, 5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box22",
+			"from": [ 9.5, 9, 8 ],
+			"to": [ 10.5, 9.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 10.5, 7, 9.5, 6.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 10.5, 6.5, 9.5, 7 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 10.5, 6.5, 9.5, 7 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 9.5, 6.5, 10.5, 7 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 9.5, 6.5, 10, 7 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 10.5, 7, 10, 6.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box23",
+			"from": [ 9.5, 5, 7.5 ],
+			"to": [ 10, 5.5, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 10, 11, 9.5, 10.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 10, 10.5, 9.5, 11 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 10, 10.5, 9.5, 11 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 9.5, 10.5, 10, 11 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 9.5, 10.5, 10, 11 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 10, 11, 9.5, 10.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box24",
+			"from": [ 10, 11, 8 ],
+			"to": [ 12.5, 11.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 12.5, 5, 10, 4.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 12.5, 4.5, 10, 5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 12.5, 4.5, 10, 5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 10, 4.5, 12.5, 5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 10, 4.5, 10.5, 5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 12.5, 5, 12, 4.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box25",
+			"from": [ 10.5, 11.5, 8 ],
+			"to": [ 13, 12, 9 ],
+			"faces": {
+				"down": { "uv": [ 13, 4.5, 10.5, 4 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 13, 4, 10.5, 4.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 13, 4, 10.5, 4.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 10.5, 4, 13, 4.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 10.5, 4, 11, 4.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 13, 4.5, 12.5, 4 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box26",
+			"from": [ 11, 12, 8 ],
+			"to": [ 13.5, 12.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 13.5, 4, 11, 3.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 13.5, 3.5, 11, 4 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 13.5, 3.5, 11, 4 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 11, 3.5, 13.5, 4 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 11, 3.5, 11.5, 4 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 13.5, 4, 13, 3.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box27",
+			"from": [ 11.5, 12.5, 8 ],
+			"to": [ 14, 13, 9 ],
+			"faces": {
+				"down": { "uv": [ 14, 3.5, 11.5, 3 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 14, 3, 11.5, 3.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 14, 3, 11.5, 3.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 11.5, 3, 14, 3.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 11.5, 3, 12, 3.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 14, 3.5, 13.5, 3 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box28",
+			"from": [ 12, 13, 8 ],
+			"to": [ 14.5, 13.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 14.5, 3, 12, 2.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 14.5, 2.5, 12, 3 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 14.5, 2.5, 12, 3 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 12, 2.5, 14.5, 3 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 12, 2.5, 12.5, 3 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 14.5, 3, 14, 2.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box29",
+			"from": [ 12.5, 13.5, 8 ],
+			"to": [ 15, 14, 9 ],
+			"faces": {
+				"down": { "uv": [ 15, 2.5, 12.5, 2 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 15, 2, 12.5, 2.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 15, 2, 12.5, 2.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 12.5, 2, 15, 2.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 12.5, 2, 13, 2.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 15, 2.5, 14.5, 2 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box30",
+			"from": [ 13, 14, 8 ],
+			"to": [ 15.5, 14.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 15.5, 2, 13, 1.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 15.5, 1.5, 13, 2 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 15.5, 1.5, 13, 2 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 13, 1.5, 15.5, 2 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 13, 1.5, 13.5, 2 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 15.5, 2, 15, 1.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box31",
+			"from": [ 13.5, 14.5, 8 ],
+			"to": [ 15.5, 15, 9 ],
+			"faces": {
+				"down": { "uv": [ 15.5, 1.5, 13.5, 1 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 15.5, 1, 13.5, 1.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 15.5, 1, 13.5, 1.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 13.5, 1, 15.5, 1.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 13.5, 1, 14, 1.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 15.5, 1.5, 15, 1 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box32",
+			"from": [ 14, 15, 8 ],
+			"to": [ 16, 15.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 16, 1, 14, 0.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 16, 0.5, 14, 1 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 16, 0.5, 14, 1 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 14, 0.5, 16, 1 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 14, 0.5, 14.5, 1 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 16, 1, 15.5, 0.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box33",
+			"from": [ 15, 15.5, 8 ],
+			"to": [ 16, 16, 9 ],
+			"faces": {
+				"down": { "uv": [ 16, 0.5, 15, 0 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 16, 0, 15, 0.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 16, 0, 15, 0.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 15, 0, 16, 0.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 15, 0, 15.5, 0.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 16, 0.5, 15.5, 0 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box34",
+			"from": [ 2.5, 3, 8 ],
+			"to": [ 4.5, 3.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 4.5, 13, 2.5, 12.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 4.5, 12.5, 2.5, 13 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 4.5, 12.5, 2.5, 13 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 2.5, 12.5, 4.5, 13 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 2.5, 12.5, 3, 13 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 4.5, 13, 4, 12.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box35",
+			"from": [ 2.5, 2.5, 8 ],
+			"to": [ 3.5, 3, 9 ],
+			"faces": {
+				"down": { "uv": [ 3.5, 13.5, 2.5, 13 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 3.5, 13, 2.5, 13.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 3.5, 13, 2.5, 13.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 2.5, 13, 3.5, 13.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 2.5, 13, 3, 13.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 3.5, 13.5, 3, 13 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box36",
+			"from": [ 3, 4, 8 ],
+			"to": [ 5, 4.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 5, 12, 3, 11.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 5, 11.5, 3, 12 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 5, 11.5, 3, 12 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 3, 11.5, 5, 12 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 3, 11.5, 3.5, 12 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 5, 12, 4.5, 11.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box37",
+			"from": [ 3, 3.5, 8 ],
+			"to": [ 4.5, 4, 9 ],
+			"faces": {
+				"down": { "uv": [ 4.5, 12.5, 3, 12 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 4.5, 12, 3, 12.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 4.5, 12, 3, 12.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 3, 12, 4.5, 12.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 3, 12, 3.5, 12.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 4.5, 12.5, 4, 12 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box38",
+			"from": [ 4, 4.5, 8 ],
+			"to": [ 5.5, 5, 9 ],
+			"faces": {
+				"down": { "uv": [ 5.5, 11.5, 4, 11 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 5.5, 11, 4, 11.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 5.5, 11, 4, 11.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 4, 11, 5.5, 11.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 4, 11, 4.5, 11.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 5.5, 11.5, 5, 11 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box39",
+			"from": [ 4.5, 5, 8 ],
+			"to": [ 6, 5.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 6, 11, 4.5, 10.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 6, 10.5, 4.5, 11 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 6, 10.5, 4.5, 11 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 4.5, 10.5, 6, 11 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 4.5, 10.5, 5, 11 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 6, 11, 5.5, 10.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box40",
+			"from": [ 5, 9, 8 ],
+			"to": [ 6, 10, 9 ],
+			"faces": {
+				"down": { "uv": [ 6, 7, 5, 6.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 6, 6, 5, 6.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 6, 6, 5, 7 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 5, 6, 6, 7 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 5, 6, 5.5, 7 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 6, 7, 5.5, 6 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box41",
+			"from": [ 5, 5.5, 8 ],
+			"to": [ 7, 6, 9 ],
+			"faces": {
+				"down": { "uv": [ 7, 10.5, 5, 10 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 7, 10, 5, 10.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 7, 10, 5, 10.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 5, 10, 7, 10.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 5, 10, 5.5, 10.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 7, 10.5, 6.5, 10 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box42",
+			"from": [ 5.5, 8.5, 8 ],
+			"to": [ 8.5, 9, 9 ],
+			"faces": {
+				"down": { "uv": [ 8.5, 7.5, 5.5, 7 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 8.5, 7, 5.5, 7.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 8.5, 7, 5.5, 7.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 5.5, 7, 8.5, 7.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 5.5, 7, 6, 7.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 8.5, 7.5, 8, 7 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box43",
+			"from": [ 5.5, 6, 8 ],
+			"to": [ 9, 7, 9 ],
+			"faces": {
+				"down": { "uv": [ 9, 10, 5.5, 9.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 9, 9, 5.5, 9.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 9, 9, 5.5, 10 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 5.5, 9, 9, 10 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 5.5, 9, 6, 10 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 9, 10, 8.5, 9 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box44",
+			"from": [ 6, 7, 8 ],
+			"to": [ 6.5, 9.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 6.5, 9, 6, 8.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 6.5, 6.5, 6, 7 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 6.5, 6.5, 6, 9 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 6, 6.5, 6.5, 9 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 6, 6.5, 6.5, 9 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 6.5, 9, 6, 6.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box45",
+			"from": [ 6.5, 7, 8 ],
+			"to": [ 7.5, 8.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 7.5, 9, 6.5, 8.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 7.5, 7.5, 6.5, 8 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 7.5, 7.5, 6.5, 9 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 6.5, 7.5, 7.5, 9 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 6.5, 7.5, 7, 9 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 7.5, 9, 7, 7.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box46",
+			"from": [ 7, 9, 8 ],
+			"to": [ 9, 9.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 9, 7, 7, 6.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 9, 6.5, 7, 7 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 9, 6.5, 7, 7 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 7, 6.5, 9, 7 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 7, 6.5, 7.5, 7 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 9, 7, 8.5, 6.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box47",
+			"from": [ 7.5, 7, 8 ],
+			"to": [ 9.5, 7.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 9.5, 9, 7.5, 8.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 9.5, 8.5, 7.5, 9 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 9.5, 8.5, 7.5, 9 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 7.5, 8.5, 9.5, 9 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 7.5, 8.5, 8, 9 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 9.5, 9, 9, 8.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box48",
+			"from": [ 8, 9.5, 8 ],
+			"to": [ 11, 10, 9 ],
+			"faces": {
+				"down": { "uv": [ 11, 6.5, 8, 6 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 11, 6, 8, 6.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 11, 6, 8, 6.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 8, 6, 11, 6.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 8, 6, 8.5, 6.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 11, 6.5, 10.5, 6 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box49",
+			"from": [ 8.5, 10, 8 ],
+			"to": [ 11.5, 10.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 11.5, 6, 8.5, 5.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 11.5, 5.5, 8.5, 6 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 11.5, 5.5, 8.5, 6 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 8.5, 5.5, 11.5, 6 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 8.5, 5.5, 9, 6 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 11.5, 6, 11, 5.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box50",
+			"from": [ 8.5, 7.5, 8 ],
+			"to": [ 10, 8.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 10, 8.5, 8.5, 8 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 10, 7.5, 8.5, 8 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 10, 7.5, 8.5, 8.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 8.5, 7.5, 10, 8.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 8.5, 7.5, 9, 8.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 10, 8.5, 9.5, 7.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box51",
+			"from": [ 8.5, 5.5, 8 ],
+			"to": [ 10, 6, 9 ],
+			"faces": {
+				"down": { "uv": [ 10, 10.5, 8.5, 10 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 10, 10, 8.5, 10.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 10, 10, 8.5, 10.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 8.5, 10, 10, 10.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 8.5, 10, 9, 10.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 10, 10.5, 9.5, 10 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box52",
+			"from": [ 9, 8.5, 8 ],
+			"to": [ 10.5, 9, 9 ],
+			"faces": {
+				"down": { "uv": [ 10.5, 7.5, 9, 7 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 10.5, 7, 9, 7.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 10.5, 7, 9, 7.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 9, 7, 10.5, 7.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 9, 7, 9.5, 7.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 10.5, 7.5, 10, 7 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box53",
+			"from": [ 9, 5, 8 ],
+			"to": [ 9.5, 6.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 9.5, 11, 9, 10.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 9.5, 9.5, 9, 10 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 9.5, 9.5, 9, 11 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 9, 9.5, 9.5, 11 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 9, 9.5, 9.5, 11 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 9.5, 11, 9, 9.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box54",
+			"from": [ 9.5, 10.5, 8 ],
+			"to": [ 12, 11, 9 ],
+			"faces": {
+				"down": { "uv": [ 12, 5.5, 9.5, 5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 12, 5, 9.5, 5.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 12, 5, 9.5, 5.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 9.5, 5, 12, 5.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 9.5, 5, 10, 5.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 12, 5.5, 11.5, 5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box55",
+			"from": [ 9.5, 9, 8 ],
+			"to": [ 10.5, 9.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 10.5, 7, 9.5, 6.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 10.5, 6.5, 9.5, 7 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 10.5, 6.5, 9.5, 7 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 9.5, 6.5, 10.5, 7 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 9.5, 6.5, 10, 7 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 10.5, 7, 10, 6.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box56",
+			"from": [ 9.5, 5, 8 ],
+			"to": [ 10, 5.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 10, 11, 9.5, 10.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 10, 10.5, 9.5, 11 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 10, 10.5, 9.5, 11 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 9.5, 10.5, 10, 11 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 9.5, 10.5, 10, 11 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 10, 11, 9.5, 10.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box57",
+			"from": [ 10, 11, 8 ],
+			"to": [ 12.5, 11.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 12.5, 5, 10, 4.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 12.5, 4.5, 10, 5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 12.5, 4.5, 10, 5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 10, 4.5, 12.5, 5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 10, 4.5, 10.5, 5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 12.5, 5, 12, 4.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box58",
+			"from": [ 10.5, 11.5, 8 ],
+			"to": [ 13, 12, 9 ],
+			"faces": {
+				"down": { "uv": [ 13, 4.5, 10.5, 4 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 13, 4, 10.5, 4.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 13, 4, 10.5, 4.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 10.5, 4, 13, 4.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 10.5, 4, 11, 4.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 13, 4.5, 12.5, 4 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box59",
+			"from": [ 11, 12, 8 ],
+			"to": [ 13.5, 12.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 13.5, 4, 11, 3.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 13.5, 3.5, 11, 4 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 13.5, 3.5, 11, 4 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 11, 3.5, 13.5, 4 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 11, 3.5, 11.5, 4 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 13.5, 4, 13, 3.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box60",
+			"from": [ 11.5, 12.5, 8 ],
+			"to": [ 14, 13, 9 ],
+			"faces": {
+				"down": { "uv": [ 14, 3.5, 11.5, 3 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 14, 3, 11.5, 3.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 14, 3, 11.5, 3.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 11.5, 3, 14, 3.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 11.5, 3, 12, 3.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 14, 3.5, 13.5, 3 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box61",
+			"from": [ 12, 13, 8 ],
+			"to": [ 14.5, 13.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 14.5, 3, 12, 2.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 14.5, 2.5, 12, 3 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 14.5, 2.5, 12, 3 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 12, 2.5, 14.5, 3 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 12, 2.5, 12.5, 3 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 14.5, 3, 14, 2.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box62",
+			"from": [ 12.5, 13.5, 8 ],
+			"to": [ 15, 14, 9 ],
+			"faces": {
+				"down": { "uv": [ 15, 2.5, 12.5, 2 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 15, 2, 12.5, 2.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 15, 2, 12.5, 2.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 12.5, 2, 15, 2.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 12.5, 2, 13, 2.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 15, 2.5, 14.5, 2 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box63",
+			"from": [ 13, 14, 8 ],
+			"to": [ 15.5, 14.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 15.5, 2, 13, 1.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 15.5, 1.5, 13, 2 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 15.5, 1.5, 13, 2 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 13, 1.5, 15.5, 2 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 13, 1.5, 13.5, 2 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 15.5, 2, 15, 1.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box64",
+			"from": [ 13.5, 14.5, 8 ],
+			"to": [ 15.5, 15, 9 ],
+			"faces": {
+				"down": { "uv": [ 15.5, 1.5, 13.5, 1 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 15.5, 1, 13.5, 1.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 15.5, 1, 13.5, 1.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 13.5, 1, 15.5, 1.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 13.5, 1, 14, 1.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 15.5, 1.5, 15, 1 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box65",
+			"from": [ 14, 15, 8 ],
+			"to": [ 16, 15.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 16, 1, 14, 0.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 16, 0.5, 14, 1 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 16, 0.5, 14, 1 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 14, 0.5, 16, 1 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 14, 0.5, 14.5, 1 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 16, 1, 15.5, 0.5 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box66",
+			"from": [ 15, 15.5, 8 ],
+			"to": [ 16, 16, 9 ],
+			"faces": {
+				"down": { "uv": [ 16, 0.5, 15, 0 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"up": { "uv": [ 16, 0, 15, 0.5 ], "texture": "#ancient_elven_sword", "rotation": 180 },
+				"north": { "uv": [ 16, 0, 15, 0.5 ], "texture": "#ancient_elven_sword" },
+				"south": { "uv": [ 15, 0, 16, 0.5 ], "texture": "#ancient_elven_sword" },
+				"west": { "uv": [ 15, 0, 15.5, 0.5 ], "texture": "#ancient_elven_sword" },
+				"east": { "uv": [ 16, 0.5, 15.5, 0 ], "texture": "#ancient_elven_sword", "rotation": 180 }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 0, -90, 55 ],
+			"translation":  [ 0, 4, 0.5 ],
+			"scale":  [ 1.7, 1.7, 0.85 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 0, 90, -55 ],
+			"translation":  [ 0, 4, 0.5 ],
+			"scale":  [ 1.7, 1.7, 0.85 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, -90, 25 ],
+			"translation":  [ 1.13, 3.2, 1.13 ],
+			"scale":  [ 1.36, 1.36, 0.68 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 90, -25 ],
+			"translation":  [ 1.13, 3.2, 1.13 ],
+			"scale":  [ 1.36, 1.36, 0.68 ]
+		},
+		"gui": {
+			"scale":  [ 2, 2, 0.0001 ]
+		},
+		"ground": {
+			"translation":  [ 0, 4, 0 ],
+			"scale":  [ 1, 1, 0.5 ]
+		},
+		"fixed": {
+			"scale":  [ 1.2, 1.2, 1 ]
+		}
+	}
+}

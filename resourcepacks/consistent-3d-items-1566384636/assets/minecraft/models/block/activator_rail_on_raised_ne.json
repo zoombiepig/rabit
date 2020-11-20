@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/activator_rail_raised_ne",
+	"textures": {
+		"rail": "block/activator_rail_on",
+		"particle": "block/activator_rail_on"
+	}	
+}

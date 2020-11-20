@@ -1,0 +1,189 @@
+---- Minecraft Crash Report ----
+// Oh - I know what I did wrong!
+
+Time: 1/5/19 4:54 PM
+Description: Watching Server
+
+java.lang.Error
+	at ou.a(SourceFile:116)
+	at afa.cq(SourceFile:760)
+	at afa.aF(SourceFile:1099)
+	at afa.aC(SourceFile:2177)
+	at aeu.a(SourceFile:69)
+	at aeu$$Lambda$1518/696255830.test(Unknown Source)
+	at java.util.function.Predicate.lambda$and$0(Predicate.java:69)
+	at java.util.function.Predicate$$Lambda$1444/868777741.test(Unknown Source)
+	at bnj.a(SourceFile:800)
+	at axy.a(SourceFile:1865)
+	at afa.cN(SourceFile:2035)
+	at afa.k(SourceFile:2006)
+	at afb.k(SourceFile:495)
+	at ang.k(SourceFile:35)
+	at anw.k(SourceFile:270)
+	at afa.R_(SourceFile:1819)
+	at afb.R_(SourceFile:279)
+	at ang.R_(SourceFile:40)
+	at anw.R_(SourceFile:245)
+	at anx.R_(SourceFile:113)
+	at axy.a(SourceFile:1243)
+	at td.a(SourceFile:575)
+	at axy.g(SourceFile:1218)
+	at axy.o_(SourceFile:1100)
+	at td.o_(SourceFile:491)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:755)
+	at so.b(SourceFile:360)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:681)
+	at net.minecraft.server.MinecraftServer.run(SourceFile:584)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at ou.a(SourceFile:116)
+	at afa.cq(SourceFile:760)
+	at afa.aF(SourceFile:1099)
+	at afa.aC(SourceFile:2177)
+	at aeu.a(SourceFile:69)
+	at aeu$$Lambda$1518/696255830.test(Unknown Source)
+	at java.util.function.Predicate.lambda$and$0(Predicate.java:69)
+	at java.util.function.Predicate$$Lambda$1444/868777741.test(Unknown Source)
+	at bnj.a(SourceFile:800)
+	at axy.a(SourceFile:1865)
+	at afa.cN(SourceFile:2035)
+	at afa.k(SourceFile:2006)
+	at afb.k(SourceFile:495)
+	at ang.k(SourceFile:35)
+	at anw.k(SourceFile:270)
+	at afa.R_(SourceFile:1819)
+	at afb.R_(SourceFile:279)
+	at ang.R_(SourceFile:40)
+	at anw.R_(SourceFile:245)
+	at anx.R_(SourceFile:113)
+	at axy.a(SourceFile:1243)
+	at td.a(SourceFile:575)
+	at axy.g(SourceFile:1218)
+	at axy.o_(SourceFile:1100)
+	at td.o_(SourceFile:491)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:755)
+	at so.b(SourceFile:360)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:681)
+
+-- Thread Dump --
+Details:
+	Threads: "Java2D Disposer" Id=24 WAITING on java.lang.ref.ReferenceQueue$Lock@59b24699
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@59b24699
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+	at sun.java2d.Disposer.run(Disposer.java:148)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Server Watchdog" Id=23 RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:454)
+	at sp.run(SourceFile:45)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Netty Epoll Server IO #0" Id=22 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"ObjectCleanerThread" Id=21 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@5775a3df
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@5775a3df
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at io.netty.util.internal.ObjectCleaner$1.run(ObjectCleaner.java:54)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Server console handler" Id=20 RUNNABLE (in native)
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(FileInputStream.java:255)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	-  locked java.io.BufferedInputStream@534a2de9
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	-  locked java.io.InputStreamReader@1648a9e4
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	...
+
+
+"DestroyJavaVM" Id=19 RUNNABLE
+
+
+"Server thread" Id=17 RUNNABLE
+	at ou.a(SourceFile:116)
+	at afa.cq(SourceFile:760)
+	at afa.aF(SourceFile:1099)
+	at afa.aC(SourceFile:2177)
+	at aeu.a(SourceFile:69)
+	at aeu$$Lambda$1518/696255830.test(Unknown Source)
+	at java.util.function.Predicate.lambda$and$0(Predicate.java:69)
+	at java.util.function.Predicate$$Lambda$1444/868777741.test(Unknown Source)
+	...
+
+
+"Server Infinisleeper" Id=16 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at so$1.run(SourceFile:94)
+
+
+"Snooper Timer" Id=15 WAITING on java.util.TaskQueue@5d85a33a
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@5d85a33a
+	at java.lang.Object.wait(Object.java:502)
+	at java.util.TimerThread.mainLoop(Timer.java:526)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"Signal Dispatcher" Id=4 RUNNABLE
+
+
+"Finalizer" Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@2714980e
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@2714980e
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+
+
+"Reference Handler" Id=2 WAITING on java.lang.ref.Reference$Lock@2533cc60
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@2533cc60
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+
+
+Stacktrace:
+	at sp.run(SourceFile:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.13.2
+	Operating System: Linux (amd64) version 4.15.0-43-generic
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 439856448 bytes (419 MB) / 1024983040 bytes (977 MB) up to 1908932608 bytes (1820 MB)
+	JVM Flags: 1 total; -Xmx2G
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 20; []
+	Data Packs: vanilla
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)

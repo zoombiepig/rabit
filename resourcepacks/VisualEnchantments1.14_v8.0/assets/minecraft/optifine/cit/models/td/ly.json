@@ -1,0 +1,101 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc) and later edited by CiscuLog",
+    "textures": {
+        "textures": "./textures",
+        "hand": "./hand"
+    },
+    "display": {
+        "firstperson_righthand": {
+            "rotation": [ -20, -90, 0 ],
+            "translation": [ 5, -4, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 0, 60, 0 ],
+            "translation": [ 0.2, -2, 1.5 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "gui": {
+            "rotation": [ 0, 0, -45 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.75, 0.75, 0.75 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 45 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 1, 1, 1]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 4, 0],
+            "scale":[ 0.5, 0.5, 0.5]
+        }
+    },
+    "elements": [
+        {
+            "name": "Main",
+            "from": [ 8, -8, 7 ], 
+            "to": [ 9, 23, 8 ], 
+            "faces": {
+                "north": { "texture": "#textures", "uv": [ 0, 0, 1, 16 ] },
+                "east": { "texture": "#textures", "uv": [ 0, 0, 1, 16 ] },
+                "south": { "texture": "#textures", "uv": [ 0, 0, 1, 16 ] },
+                "west": { "texture": "#textures", "uv": [ 0, 0, 1, 16 ] },
+                "up": { "texture": "#textures", "uv": [ 0, 0, 1, 0 ] },
+                "down": { "texture": "#textures", "uv": [ 0, 0, 0, 0 ] }
+            }
+        },
+        {
+            "name": "Head",
+            "from": [ 7, 17, 7 ], 
+            "to": [ 10, 19, 8 ], 
+            "faces": {
+                "north": { "texture": "#textures", "uv": [ 13, 0, 16, 2 ] },
+                "east": { "texture": "#textures", "uv": [ 15, 1, 16, 2 ] },
+                "south": { "texture": "#textures", "uv": [ 13, 0, 16, 2 ] },
+                "west": { "texture": "#textures", "uv": [ 15, 1, 16, 2 ] },
+                "up": { "texture": "#textures", "uv": [ 15, 1, 16, 2 ] },
+                "down": { "texture": "#textures", "uv": [ 15, 1, 16, 2 ] }
+            }
+        },
+        {
+            "name": "side1",
+            "from": [ 6, 18, 7 ], 
+            "to": [ 7, 22, 8 ], 
+            "faces": {
+                "north": { "texture": "#textures", "uv": [ 10, 0, 11, 4 ] },
+                "east": { "texture": "#textures", "uv": [ 10, 0, 11, 4 ] },
+                "south": { "texture": "#textures", "uv": [ 10, 0, 11, 4 ] },
+                "west": { "texture": "#textures", "uv": [ 10, 0, 11, 4 ] },
+                "up": { "texture": "#textures", "uv": [ 0, 0, 0, 0 ] },
+                "down": { "texture": "#textures", "uv": [ 15, 1, 16, 2 ] }
+            }
+        },
+        {
+            "name": "side2",
+            "from": [ 10, 18, 7 ], 
+            "to": [ 11, 22, 8 ], 
+            "faces": {
+                "north": { "texture": "#textures", "uv": [ 10, 0, 11, 4 ] },
+                "east": { "texture": "#textures", "uv": [ 10, 0, 11, 4 ] },
+                "south": { "texture": "#textures", "uv": [ 10, 0, 11, 4 ] },
+                "west": { "texture": "#textures", "uv": [ 10, 0, 11, 4 ] },
+                "up": { "texture": "#textures", "uv": [ 0, 0, 0, 0 ] },
+                "down": { "texture": "#textures", "uv": [ 15, 1, 16, 2 ] }
+            }
+        },
+        {
+            "name": "Exterior",
+            "from": [ 7.5, 4, 6.5 ], 
+            "to": [ 9.5, 12, 8.5 ], 
+            "faces": {
+                "north": { "texture": "#hand", "uv": [ 0, 0, 2, 8 ] },
+                "east": { "texture": "#hand", "uv": [ 2, 0, 4, 8 ] },
+                "south": { "texture": "#hand", "uv": [ 4, 0, 6, 8 ] },
+                "west": { "texture": "#hand", "uv": [ 6, 0, 8, 8 ] },
+                "up": { "texture": "#hand", "uv": [ 14, 0, 16, 2 ] },
+                "down": { "texture": "#hand", "uv": [ 14, 0, 16, 2 ] }
+            }
+        }
+    ]
+}

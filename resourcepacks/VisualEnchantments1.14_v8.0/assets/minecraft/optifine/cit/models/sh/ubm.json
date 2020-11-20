@@ -1,0 +1,75 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc) and next edited by CiscuLog",
+    "textures": {
+        "uback": "./uback",
+        "side": "./side",
+        "ring": "./ring",
+        "ubfront": "./ubfront",
+        "ringside": "./ringside",
+	"top": "./top"
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 0, -5, 4 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 0, -5, 4 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 180, 5 ],
+            "translation": [ -1, -13, 2 ],
+            "scale": [ 1.25, 1.25, 1.25 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 180, 5 ],
+            "translation": [ -1, -13, 2 ],
+            "scale": [ 1.25, 1.25, 1.25 ]
+        },
+        "gui": {
+            "rotation": [ 15, -25, -5 ],
+            "translation": [ 0, -1, 0 ],
+            "scale": [ 0.65, 0.65, 0.65 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.5, 0.5, 0.5]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 4, 0],
+            "scale":[ 0.25, 0.25, 0.25]
+        }
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 2, 0, 11 ], 
+            "to": [ 14, 22, 12 ], 
+            "faces": {
+                "north": { "texture": "#uback", "uv": [ 0, 0, 16, 16 ] },
+                "east": { "texture": "#side", "uv": [ 15, 0, 16, 16 ] },
+                "south": { "texture": "#ubfront", "uv": [ 0, 0, 16, 16 ] },
+                "west": { "texture": "#side", "uv": [ 0, 0, 16, 16 ] },
+                "up": { "texture": "#top", "uv": [ 0, 0, 8, 8 ] },
+                "down": { "texture": "#top", "uv": [ 8, 8, 16, 16 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7, 8, 5 ], 
+            "to": [ 9, 14, 11 ], 
+            "faces": {
+                "north": { "texture": "#ringside", "uv": [ 0, 0, 16, 16 ] },
+                "east": { "texture": "#ring", "uv": [ 0, 0, 16, 16 ] },
+                "west": { "texture": "#ring", "uv": [ 0, 0, 16, 16 ] },
+                "up": { "texture": "#ringside", "uv": [ 0, 0, 16, 16 ] },
+                "down": { "texture": "#ringside", "uv": [ 0, 0, 16, 16 ] }
+            }
+        }
+    ]
+}

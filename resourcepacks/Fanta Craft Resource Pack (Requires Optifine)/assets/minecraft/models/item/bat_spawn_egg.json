@@ -1,0 +1,104 @@
+{
+	"__comment": "Designed by Force Team with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"reinforced_wood": "item/reinforced_wood"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 0, 5, 8.5 ],
+			"to": [ 16, 11, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 0, 10, 16, 11 ], "texture": "#reinforced_wood" },
+				"up": { "uv": [ 0, 6, 16, 5 ], "texture": "#reinforced_wood" },
+				"north": { "uv": [ 16, 5, 0, 11 ], "texture": "#reinforced_wood" },
+				"south": { "uv": [ 0, 5, 16, 11 ], "texture": "#reinforced_wood" },
+				"west": { "uv": [ 0, 5, 1, 11 ], "texture": "#reinforced_wood" },
+				"east": { "uv": [ 16, 11, 15, 5 ], "texture": "#reinforced_wood", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box2",
+			"from": [ 0, 0, 8.5 ],
+			"to": [ 4, 5, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 0, 15, 4, 16 ], "texture": "#reinforced_wood" },
+				"up": { "uv": [ 0, 12, 4, 11 ], "texture": "#reinforced_wood" },
+				"north": { "uv": [ 4, 11, 0, 16 ], "texture": "#reinforced_wood" },
+				"south": { "uv": [ 0, 11, 4, 16 ], "texture": "#reinforced_wood" },
+				"west": { "uv": [ 0, 11, 1, 16 ], "texture": "#reinforced_wood" },
+				"east": { "uv": [ 4, 16, 3, 11 ], "texture": "#reinforced_wood", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box3",
+			"from": [ 4, 11, 8.5 ],
+			"to": [ 8, 16, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 4, 4, 8, 5 ], "texture": "#reinforced_wood" },
+				"up": { "uv": [ 4, 1, 8, 0 ], "texture": "#reinforced_wood" },
+				"north": { "uv": [ 8, 0, 4, 5 ], "texture": "#reinforced_wood" },
+				"south": { "uv": [ 4, 0, 8, 5 ], "texture": "#reinforced_wood" },
+				"west": { "uv": [ 4, 0, 5, 5 ], "texture": "#reinforced_wood" },
+				"east": { "uv": [ 8, 5, 7, 0 ], "texture": "#reinforced_wood", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box4",
+			"from": [ 8, 2, 8.5 ],
+			"to": [ 16, 13, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 8, 13, 16, 14 ], "texture": "#reinforced_wood" },
+				"up": { "uv": [ 8, 4, 16, 3 ], "texture": "#reinforced_wood" },
+				"north": { "uv": [ 16, 3, 8, 14 ], "texture": "#reinforced_wood" },
+				"south": { "uv": [ 8, 3, 16, 14 ], "texture": "#reinforced_wood" },
+				"west": { "uv": [ 8, 3, 9, 14 ], "texture": "#reinforced_wood" },
+				"east": { "uv": [ 16, 14, 15, 3 ], "texture": "#reinforced_wood", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box5",
+			"from": [ 12, 0, 8.5 ],
+			"to": [ 16, 16, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 12, 15, 16, 16 ], "texture": "#reinforced_wood" },
+				"up": { "uv": [ 12, 1, 16, 0 ], "texture": "#reinforced_wood" },
+				"north": { "uv": [ 16, 0, 12, 16 ], "texture": "#reinforced_wood" },
+				"south": { "uv": [ 12, 0, 16, 16 ], "texture": "#reinforced_wood" },
+				"west": { "uv": [ 12, 0, 13, 16 ], "texture": "#reinforced_wood" },
+				"east": { "uv": [ 16, 16, 15, 0 ], "texture": "#reinforced_wood", "rotation": 180 }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation":  [ 0, 3, 1 ],
+			"scale":  [ 0.55, 0.55, 0.55 ]
+		},
+		"thirdperson_lefthand": {
+			"translation":  [ 0, 3, 1 ],
+			"scale":  [ 0.55, 0.55, 0.55 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, -90, 25 ],
+			"translation":  [ 1.13, 3.2, 1.13 ],
+			"scale":  [ 0.68, 0.68, 0.68 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, -90, 25 ],
+			"translation":  [ 1.13, 3.2, 1.13 ],
+			"scale":  [ 0.68, 0.68, 0.68 ]
+		},
+		"head": {
+			"rotation":  [ 0, 180, 0 ],
+			"translation":  [ 0, 13, 7 ]
+		},
+		"ground": {
+			"translation":  [ 0, 2, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"fixed": {
+			"rotation":  [ 0, 180, 0 ]
+		}
+	}
+}

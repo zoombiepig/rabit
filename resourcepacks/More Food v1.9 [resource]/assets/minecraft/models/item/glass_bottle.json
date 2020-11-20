@@ -1,0 +1,12 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/glass_bottle"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 50}, "model": "item/item/alcohol/bottled_cider"},
+		{ "predicate": {"custom_model_data": 51}, "model": "item/item/alcohol/bottled_red_wine"},
+		{ "predicate": {"custom_model_data": 55}, "model": "item/item/alcohol/bottled_white_wine"},
+		{ "predicate": {"custom_model_data": 56}, "model": "item/item/alcohol/bottled_beer"}
+	]
+}

@@ -1,0 +1,177 @@
+
+                                                 Rodrigo's Pack, 2016 - 2019 ©
+
+                                        (Only the latest update logs are shown)
+
+-------------------------------------------------------------------------------------------------------------------
+
+                                                      UPDATE LOG (Beta v6)
+                                                               May 29, 2019
+
+• Entities edited:
+
+     - All cats
+     - All villager types
+     - All zombie villager types
+     - Villager
+     - Pillager
+     - Zombie villager
+     - Trader llama decoration
+     - Wandering trader villager
+
+• Interface fixed:
+
+     - Grind stone
+     - Cartography
+     - World selection icons
+
+• Bamboo color fixed
+
+• Added animation to Stone cutter
+
+-------------------------------------------------------------------------------------------------------------------
+
+                                                      UPDATE LOG (Beta v5)
+
+• Blocks edited:
+
+     - Loom
+     - Lectern
+     - Composter
+     - Smithing table
+     - Fletching table
+     - Cartography table
+     - Whiter rose
+     - Corn flower
+     - Lily of the valley
+
+• Interface edited:
+
+     - Loom
+     - Cartography
+
+• Entities edited:
+
+     - All pandas
+     - Ravager
+
+• Fonts fixed:
+
+     - Main letters showed on ''(United kingdom) English'' languaje
+     - New fonts format on 1.14.2 for non latin european and accented fonts
+
+• All mob effects icons edited
+
+-------------------------------------------------------------------------------------------------------------------
+
+                                                      UPDATE LOG (Beta v4)
+
+• Blocks edited:
+
+     - Barrel
+     - Campfire
+     - Scaffolding
+     - Blast furnance
+     - Berry bush
+     - Bamboo stalk
+     - Bamboo leaves
+     - Bamboo sappling
+
+• Items edited:
+
+     - All banner patterns
+     - Campfire
+     - Bamboo
+     - Berries
+     - Suspicious soup
+     - Leather horse armor
+
+• Entites edited:
+
+     - Fox
+     - Snow fox
+     - Leather horse armor
+     - Brown mushroom cow
+
+• Interface edited:
+
+     - Villager
+     - Grindstone
+     - Check box icons
+
+• Quartz slab top model fixed
+
+-------------------------------------------------------------------------------------------------------------------
+
+                                                      UPDATE LOG (Beta v3)
+
+• Blocks edited:
+
+     - Grind stone
+     - Lantern chain
+
+• Items edited:
+
+     - All signs
+     - Bell
+     - Lantern
+     - Cross bow
+     - Cross bow firework
+     - Cross bow arrow
+
+• All signs entities edited
+
+• Non latin european font fixed
+
+• Smooth sandstone stair model fixed
+
+-------------------------------------------------------------------------------------------------------------------
+
+                                                      UPDATE LOG (Beta v2)
+
+• Blocks edited:
+
+     - Lantern
+     -  Stone cutter
+
+• Entities edited:
+
+     - Bell
+     - Fishing hook
+
+• Items edited:
+
+     - Ink sac
+     - Blue dye
+     - White dye
+     - Brown dye
+
+• Items fixed:
+
+     - Red dye
+     - Green dye
+     - Yellow dye
+
+• Models edited:
+
+     - All slabs
+     - All stairs
+     - All walls
+
+• Stone cutter interface edited
+
+-------------------------------------------------------------------------------------------------------------------
+
+                                                      UPDATE LOG (Beta v1)
+
+• Ported the base of all the content from 1.13 to 1.14
+
+• Big smoke particles edited
+
+•  Interface edited:
+
+     - Smoker
+     - Blast furnance
+     - Accessibility icons
+
+-------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,16 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/pufferfish"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 50}, "model": "item/food/alcohol/bottled_cidar"},
+		{ "predicate": {"custom_model_data": 51}, "model": "item/food/alcohol/bottled_red_wine"},
+		{ "predicate": {"custom_model_data": 52}, "model": "item/food/alcohol/cider"},
+		{ "predicate": {"custom_model_data": 53}, "model": "item/food/alcohol/red_wine"},
+		{ "predicate": {"custom_model_data": 54}, "model": "item/food/alcohol/white_wine"},
+		{ "predicate": {"custom_model_data": 55}, "model": "item/food/alcohol/bottled_white_wine"},
+		{ "predicate": {"custom_model_data": 57}, "model": "item/food/alcohol/beer"}
+		
+	]
+}

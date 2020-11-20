@@ -1,0 +1,14 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/potato"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 50}, "model": "item/food/raw_wedges"},
+		{ "predicate": {"custom_model_data": 51}, "model": "item/food/vegi/onion"},
+		{ "predicate": {"custom_model_data": 52}, "model": "item/food/vegi/sliced_onion"},
+		{ "predicate": {"custom_model_data": 53}, "model": "item/food/coconut_meat"}
+		
+		
+	]
+}

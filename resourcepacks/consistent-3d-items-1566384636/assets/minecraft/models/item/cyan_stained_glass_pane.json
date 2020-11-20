@@ -1,0 +1,7 @@
+{
+    "parent": "item/glass_pane",
+    "textures": {
+        "layer0": "block/cyan_stained_glass",
+		"top": "block/cyan_stained_glass_pane_top"
+    }
+}

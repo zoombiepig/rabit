@@ -1,0 +1,28 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/armor_stand"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 50}, "model": "item/plant/apple_tree_sapling"},
+		{ "predicate": {"custom_model_data": 51}, "model": "item/plant/banana_tree_sapling"},
+		{ "predicate": {"custom_model_data": 52}, "model": "item/plant/grape_seeds"},
+		{ "predicate": {"custom_model_data": 53}, "model": "item/plant/orange_tree_sapling"},
+		{ "predicate": {"custom_model_data": 54}, "model": "item/plant/lemon_tree_sapling"},
+		{ "predicate": {"custom_model_data": 55}, "model": "item/plant/coffee_beans"},
+		{ "predicate": {"custom_model_data": 56}, "model": "item/plant/strawberry_seeds"},
+		{ "predicate": {"custom_model_data": 57}, "model": "item/plant/tea_seeds"},
+		{ "predicate": {"custom_model_data": 58}, "model": "item/plant/corn"},
+		{ "predicate": {"custom_model_data": 59}, "model": "item/plant/tomato_seeds"},
+		{ "predicate": {"custom_model_data": 60}, "model": "item/plant/lettuce_seeds"},
+		{ "predicate": {"custom_model_data": 61}, "model": "item/plant/coconut"},
+		{ "predicate": {"custom_model_data": 62}, "model": "item/plant/"},
+		{ "predicate": {"custom_model_data": 63}, "model": "item/plant/barley_seed"},
+		{ "predicate": {"custom_model_data": 64}, "model": "item/plant/hops_seed"},
+		{ "predicate": {"custom_model_data": 65}, "model": "item/plant/vanilla_seed"},
+		{ "predicate": {"custom_model_data": 666}, "model": "item/custom_crafting_table"},
+		{ "predicate": {"custom_model_data": 667}, "model": "item/hot_table"},
+		{ "predicate": {"custom_model_data": 668}, "model": "item/cold_table"},
+		{ "predicate": {"custom_model_data": 669}, "model": "item/still_table"}
+	]
+}

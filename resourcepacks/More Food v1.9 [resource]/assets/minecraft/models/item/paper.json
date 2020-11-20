@@ -1,0 +1,24 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/paper"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 50}, "model": "item/item/fry_wrapper"},
+		{ "predicate": {"custom_model_data": 51}, "model": "item/item/sub_wraping"},
+		{ "predicate": {"custom_model_data": 54}, "model": "item/item/soda_can_empty"},
+		{ "predicate": {"custom_model_data": 57}, "model": "item/item/cups/beverage_cup"},
+		{ "predicate": {"custom_model_data": 59}, "model": "item/item/cups/beer_glass"},
+		{ "predicate": {"custom_model_data": 61}, "model": "item/item/icing"},
+		{ "predicate": {"custom_model_data": 62}, "model": "item/item/starch"},
+		{ "predicate": {"custom_model_data": 63}, "model": "item/item/cups/wine_glass"},
+		{ "predicate": {"custom_model_data": 64}, "model": "item/item/carton"},
+		{ "predicate": {"custom_model_data": 65}, "model": "item/item/pizza_box_opened"},
+		{ "predicate": {"custom_model_data": 66}, "model": "item/item/chicken_select_box"},
+		{ "predicate": {"custom_model_data": 67}, "model": "item/item/cups/hot_beverage_cup"},
+		{ "predicate": {"custom_model_data": 68}, "model": "item/item/cups/empty_icecrush_glass"},
+		{ "predicate": {"custom_model_data": 69}, "model": "item/item/cups/empty_tumbler_glass"},
+		{ "predicate": {"custom_model_data": 70}, "model": "item/item/cream_carton"}
+		
+	]
+}

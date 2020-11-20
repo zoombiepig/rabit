@@ -1,0 +1,18 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/golden_axe"
+    },
+	"display": {
+        "thirdperson_righthand": {
+            "rotation": [ 40, -90, 80 ],
+            "translation": [ 0, 6, 1 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "thirdperson_lefthand": {
+			"rotation": [ 40, -90, 80 ],
+			"translation": [0, 6, 1],
+			"scale": [1, 1, 1]
+		}
+    }
+}
