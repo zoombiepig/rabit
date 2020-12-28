@@ -1,32 +1,30 @@
-[11:58:36] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11:58:36] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:58:36] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:58:36] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11:58:36] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:58:36] [main/INFO]: Reloading ResourceManager: Default, player head drops v1.0.0.zip, wandering trades v1.1.0.zip
-[11:58:38] [Worker-Main-4/INFO]: Loaded 7 recipes
-[11:58:38] [Worker-Main-4/ERROR]: Parsing error loading custom advancement main:main/namespace: Expected item to be an item, was unknown string 'minecraft:item'
-[11:58:38] [Worker-Main-4/INFO]: Loaded 929 advancements
-[11:58:41] [Server thread/INFO]: Starting minecraft server version 1.16.3
-[11:58:41] [Server thread/INFO]: Loading properties
-[11:58:41] [Server thread/INFO]: Default game type: SURVIVAL
-[11:58:41] [Server thread/INFO]: Generating keypair
-[11:58:42] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:58:42] [Server thread/INFO]: Using epoll channel type
-[11:58:42] [Server thread/INFO]: Preparing level "world"
-[11:58:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:58:47] [Server thread/INFO]: Preparing spawn area: 0%
-[11:58:47] [Server thread/INFO]: Preparing spawn area: 0%
-[11:58:47] [Server thread/INFO]: Preparing spawn area: 0%
-[11:58:47] [Server thread/INFO]: Preparing spawn area: 0%
-[11:58:47] [Server thread/INFO]: Preparing spawn area: 0%
-[11:58:47] [Server thread/INFO]: Preparing spawn area: 0%
-[11:58:47] [Server thread/INFO]: Preparing spawn area: 0%
-[11:58:47] [Server thread/INFO]: Preparing spawn area: 0%
-[11:58:47] [Server thread/INFO]: Preparing spawn area: 0%
-[11:58:47] [Server thread/INFO]: Preparing spawn area: 0%
-[11:58:48] [Server thread/INFO]: Preparing spawn area: 0%
-[11:58:48] [Server thread/INFO]: Preparing spawn area: 44%
-[11:58:49] [Server thread/INFO]: Time elapsed: 6388 ms
-[11:58:49] [Server thread/INFO]: Done (6.647s)! For help, type "help"
-[11:58:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2049ms or 40 ticks behind
+[00:35:43] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:35:44] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:35:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:35:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:35:44] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:35:44] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:35:44] [main/INFO]: Reloading ResourceManager: Default, player head drops v1.0.0.zip, wandering trades v1.1.0.zip
+[00:35:45] [Worker-Main-9/INFO]: Loaded 7 recipes
+[00:35:45] [Worker-Main-9/ERROR]: Parsing error loading custom advancement main:main/namespace: Expected item to be an item, was unknown string 'minecraft:item'
+[00:35:45] [Worker-Main-9/INFO]: Loaded 929 advancements
+[00:35:46] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[00:35:46] [Server thread/INFO]: Loading properties
+[00:35:46] [Server thread/INFO]: Default game type: SURVIVAL
+[00:35:46] [Server thread/INFO]: Generating keypair
+[00:35:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:35:46] [Server thread/INFO]: Using epoll channel type
+[00:35:46] [Server thread/INFO]: Preparing level "world"
+[00:35:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:35:48] [Server thread/INFO]: Preparing spawn area: 0%
+[00:35:48] [Server thread/INFO]: Preparing spawn area: 0%
+[00:35:48] [Server thread/INFO]: Preparing spawn area: 0%
+[00:35:48] [Server thread/INFO]: Preparing spawn area: 0%
+[00:35:48] [Server thread/INFO]: Preparing spawn area: 0%
+[00:35:49] [Server thread/INFO]: Time elapsed: 2394 ms
+[00:35:49] [Server thread/INFO]: Done (2.463s)! For help, type "help"
+[00:36:20] [User Authenticator #1/INFO]: UUID of player benpeled is db23ab06-738b-412b-88ed-0814f311f194
+[00:36:20] [Server thread/INFO]: benpeled[/127.0.0.1:42314] logged in with entity id 406 at (297.42527488828796, 63.0, -248.6326220736197)
+[00:36:20] [Server thread/INFO]: benpeled joined the game
+[00:36:28] [Server thread/INFO]: benpeled lost connection: Disconnected
+[00:36:28] [Server thread/INFO]: benpeled left the game
